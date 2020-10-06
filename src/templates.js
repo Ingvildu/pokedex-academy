@@ -38,7 +38,9 @@ export function createPokemonMarkup(pokemon) {
       <p>
       Height: ${pokemon.height}
       </p>
+      <div>
       <img src="${pokemon.sprites.other.dream_world.front_default}">
+      </div>
       <div>
       <img src="${pokemon.sprites.front_default}">
       </div>
