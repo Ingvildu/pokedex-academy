@@ -1,0 +1,112 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkslategray;
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: darkslategray;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  margin-bottom: 30px;
+}
+
+#pokemonList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemonCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  color: white;
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+
+  background-image: url("https://images.unsplash.com/photo-1584803894066-6d8f732cc6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=810&q=80");
+  background-size: cover;
+}
+
+.normal {
+  background-image: url("");
+}
+
+.fighting {
+  background-image: url("");
+}
+
+.flying {
+  background-image: url("");
+}
+
+.poison {
+  background-image: url("");
+}
+
+.ground {
+  background-image: url("");
+}
+
+.rock {
+  background-image: url("https://images.unsplash.com/photo-1599179748735-d70d9a7de9d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.bug {
+  background-image: url("https://images.unsplash.com/photo-1600430592272-83c4b72bc0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.ghost {
+  background-image: url("https://images.unsplash.com/photo-1531252866108-50d079abae3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.steel {
+  background-image: url("https://images.unsplash.com/photo-1527610869132-ee295e40fe61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.fire {
+  background-image: url("https://images.unsplash.com/photo-1565121204642-bc67783605c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.water {
+  background-image: url("https://images.unsplash.com/photo-1432251407527-504a6b4174a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.grass {
+  background-image: url("https://images.unsplash.com/photo-1584803894066-6d8f732cc6c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=810&q=80");
+}
+
+.electric {
+  background-image: url("https://images.unsplash.com/photo-1495917171981-79ce0e0456de?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.psychic {
+  background-image: url("https://images.unsplash.com/photo-1597589827317-4c6d6e0a90bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.ice {
+  background-image: url("https://images.unsplash.com/photo-1579618218494-04a080ff0204?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.dragon {
+  background-image: url("https://images.unsplash.com/photo-1514931181523-5fc9ac41ea38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=771&q=80");
+}
+
+.fairy {
+  background-image: url("https://images.unsplash.com/photo-1526413503690-c1da7d505b5a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
+
+.dark {
+  background-image: url("https://images.unsplash.com/photo-1446367819189-c48fb912db4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+}
