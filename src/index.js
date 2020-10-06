@@ -11,7 +11,7 @@ import {
 var mainNode = document.getElementById("main");
 
 let currentPage = 0;
-let perPage = 20;
+let perPage = 30;
 
 function renderPokemon(pokemonId) {
   fetchPokemon(pokemonId).then(function (pokemon) {

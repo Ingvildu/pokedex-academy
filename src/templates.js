@@ -9,6 +9,7 @@ export function createHomeMarkup() {
 export function createPokemonCardMarkup(pokemon) {
   let pokemonId = getIdFromUrl(pokemon.url);
   let imageUrl = getAnimatedImageFromId(pokemonId);
+  console.log(pokemon);
   return `
       <div class="pokemonCard" id="${pokemonId}">
       <img src=${imageUrl}>
@@ -32,13 +33,18 @@ export function createPokemonsMarkup(pokemons, currentPage) {
 
 export function createPokemonMarkup(pokemon) {
   return `
-      <h1>${getCapitalized(pokemon.name)} is ${pokemon.height} tall</h1>
-      <button id="back">Back</button>
-      <div>
+      <div class="${pokemon.types[0].type.name}">
+      <h1>${getCapitalized(pokemon.name)}</h1>
+      <p>
+      Height: ${pokemon.height}
+      </p>
       <img src="${pokemon.sprites.other.dream_world.front_default}">
-      </div>
       <div>
       <img src="${pokemon.sprites.front_default}">
+      </div>
+      <div>
+      <button id="back">Back</button>
+      </div>
       </div>`;
 }
 

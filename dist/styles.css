@@ -39,6 +39,12 @@ button {
   background-size: cover;
 }
 
+.eachPokemonImage {
+  align-content: center;
+  text-align: center;
+}
+
+/* All the pokemon types */
 .normal {
   background-image: url("");
 }
